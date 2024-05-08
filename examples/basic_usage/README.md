@@ -8,6 +8,7 @@ followed by the `terraform apply` command.
 Note that this example may create resources which cost money. Run
 `terraform destroy` when you no longer need these resources.
 
+<!-- BEGIN_TF_DOCS -->
 ## Requirements ##
 
 | Name | Version |
@@ -41,3 +42,4 @@ No inputs.
 | ec2amicreate\_role\_production | The IAM role that allows creation of AMIs in Production by the test-ami-build-iam-user-tf-module user. |
 | ec2amicreate\_role\_staging | The IAM role that allows creation of AMIs in Staging by the test-ami-build-iam-user-tf-module user. |
 | user | The test-ami-build-iam-user-tf-module IAM user. |
+<!-- END_TF_DOCS -->
