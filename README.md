@@ -40,6 +40,7 @@ module "example" {
 |------|---------|
 | aws | >= 4.9 |
 | aws.images-ami | >= 4.9 |
+| aws.images-ssm | >= 4.9 |
 
 ## Modules ##
 
